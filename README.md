@@ -57,12 +57,6 @@ Augmentation gave a small, not-statistically-significant improvement when tested
 
 **This is the point of the project**: a lot of small-cohort biomarker papers validate only on a second, similar dataset and report that as "external validation." This project shows that bar is too low — same-modality validation can look like a genuine improvement while the model has learned nothing that generalizes across platforms. Any claim of a usable miRNA biomarker panel for GBM needs validation across platforms and tissue types before it means anything clinically.
 
-## Limitations
-
-- Discovery cohort was small and biologically heterogeneous (GBM and lower-grade glioma pooled as "tumour").
-- Each generator/classifier was trained with a single random seed — run-to-run variability was not characterized.
-- Biomarker feature-importance rankings are exploratory and have not been independently validated.
-
 ## Repository contents
 
 ```
